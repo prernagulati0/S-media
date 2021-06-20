@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title> home - Smedia</title>
+      <meta name="viewport" content="width=device-width, initial scale=1.0">
+      <link rel="stylesheet" href="Smedia.css">
+      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+    <body>
+      <div class= "container">
+        <div class="navbar">
+          <img src="img/logo.png" class="logo">
+          <nav>
+            <ul id="menuList">
+              <li><a href="">Covid 19 </a></li>
+              <li><a href="">Solutions <span style="font-size:18px;">&#9663;</span></a></li>
+              <li><a href="">Tools <span style="font-size:18px;">&#9663;</span></a></li>
+              <li><a href="">How we help <span style="font-size:18px;">&#9663;</span></a></li>
+              <li><a href="">About <span style="font-size:18px;">&#9663;</span></a></li>
+              <li><a href="">Customers <span style="font-size:18px;">&#9663;</span></a></li>
+              <li id="Talk"><a href="" style="color:white;">Let's Talk </a></li>
+            </ul>
+          </nav>
+          <img src="img/menu-icon.png" class="menu" onclick="togglemenu()">
+        </div>
+      </div>
+
+      <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight="0px" ;
+        function togglemenu(){
+          if (menuList.style.maxHeight == "0px")
+          {
+            menuList.style.maxHeight="280px";
+          }
+          else{
+            menuList.style.maxHeight="0px";
+          }
+        }
+      </script>
+
+      <div class="banner">
+        <img src="img/dot.png" id="dot-img1"/>
+        <h3> Attract More Buyers<br><b>Sell More Cars</b></h3>
+        <p> You have a lot of “leads”, and most are anonymous. Help them through their entire buying cycle – without needing their information.</p>
+        <button ><a href=" ">Get Free Trial</a> </button>
+        <img src="img/dot.png" id="dot-img2"/>
+        <img src="img/circles.png" id="circles"/>
+        <img src="img/Group 5.png" id="banner-img" />
+      </div>
+
+      <div class="brands">
+        <div> <img src="img/knight.png" id="brand-img"/></div>
+        <div> <img src="img/bennett.png" id="brand-img"/></div>
+        <div> <img src="img/king.png" id="brand-img" /></div>
+        <div> <img src="img/merc.png" id="brand-img" /></div>
+      </div>
+
+<!-- first division-->
+      <div class= "row">
+        <div class="col-1">
+          <img src="img/Mask Group 1.png" id="Mask-img1">
+          <div class="div1">
+          <h3>More Engaged Prospects on VDPs =</h3>
+          <h1> MORE CAR SALES</h1>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <img src="img/Group 16.png" id="arrow">
+          <h1 >We help you <br><b style="font-weight:600;">understand your traffic</b></h1>
+            <p class="head">Put your data to work. Our data-backed approach ensures you’re making the most of your budget by not wasting valuable marketing spent on wrong buyers. We analyze hundreds of behavioral indicators of your customers to target only engaged prospects.<br><br> By showing the right car to the right buyer, we increase the number of engaged prospects who come to your VDPs.</p>
+          <button> Maximize Engagement </button>
+        </div>
+      </div>
+
+<!-- second division-->
+      <div class= "row">
+        <div class="col-left">
+          <img src="img/Group 15.png" id="arrow">
+          <h1 >We increase the <br><b style="font-weight:600;">number of leads </b></h1>
+            <p class="head2">Best online leads come from your website. They cost less and close more often. If your website doesn’t convert leads, it decreases effectiveness of all ad Spend. By increasing efficiency of your website, we make sure that’s not the case.<br><br> Powered by Artificial Intelligence, we maximize engagement on VDPs by choosing best-performing button combinations for a particular customer.</p>
+          <button> Optimize your digital shopping experience </button>
+        </div>
+
+      <div class="col-right">
+        <img src="img/Mask Group 1.png" id="Mask-img1">
+        <div class="div2">
+        <h3>We make the most out of your<br>quality <span style="color:#FF8500">traffic, ensuring your ad dollars are well spent.</span></h3>
+        </div>
+      </div>
+    </div>
+<!--third division-->
+      <div class= "row">
+        <div class="col-1">
+          <img src="img/Mask Group 1.png" id="Mask-img1">
+          <div class="div1">
+          <h3>Our services generate more high-<br>quality<span style="color:#FF8500"> VDP traffic per dollar than any<br> other advertising channels.</span></h3>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <img src="img/Group 14.png" id="arrow">
+          <h1 >We help you <br><b style="font-weight:600;"> grow sales</b></h1>
+          <p class="head">Capitalize on real customer intent.<br><br> We help dealerships sell more cars by driving targeted, qualified car buyers directly to their VDPs. By attracting and following up with buyers that display high purchase intent, we propel a dealership ahead of their competition.</p>
+          <button> Maximize Engagement </button>
+        </div>
+      </div>
+
+    </body>
+  </html>
